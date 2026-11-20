@@ -19,7 +19,10 @@ public class Cell {
 
     // Method that places onto a cell.
     public void placePiece(Piece piece) {
-        occupant = piece;
+        // check if piece can land on cell before placing it
+        if (canLandHere(piece)){
+            occupant = piece;
+        }
 
     }
 
