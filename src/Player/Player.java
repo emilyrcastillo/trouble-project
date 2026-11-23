@@ -19,23 +19,23 @@ public class Player {
 
     //Creates a list of pieces that can legally move with a roll and returns it
     public ArrayList<Piece> getMovablePieces(int roll) {
-        ArrayList<Piece> moveablePieces = new ArrayList<Piece>();
+        ArrayList<Piece> movablePieces = new ArrayList<Piece>();
         for (Piece i : pieces) {
             if (i.canMove(roll)) {
-                moveablePieces.add(i);
+                movablePieces.add(i);
             }
         }
-        return moveablePieces;
+        return movablePieces;
     }
 
-    // Tells player what pieces are moveable and asks which piece to move
-    public Piece choosePiece(ArrayList<Piece> moveable, Scanner input){
-        for (Piece i: moveable){
-            System.out.println(i + " is moveable.");
+    // Tells player what pieces are movable and asks which piece to move
+    public Piece choosePiece(ArrayList<Piece> movable, Scanner input){
+        for (Piece i: movable){
+            System.out.println(i + " is movable.");
         }
         System.out.println("Choose the number associated with the piece you want to move.");
         int choice = input.nextInt();
-        return moveable.get(choice-1);
+        return movable.get(choice-1);
     }
 
     // Method that checks if all pieces are finished, if true the user has won
