@@ -37,6 +37,17 @@ public class Cell {
         // is a different color than the occupant/occupying piece
         return isEmpty()|| !piece.getColor().equals(occupant.getColor());
 
+    }
+
+    // Method that returns bumped piece and updates piece on cell
+    public Piece landOn(Piece piece) throws Exception{
+        if (!canLandHere(piece)){
+            throw new Exception("Must check that piece can land on square before landing (canLandHere() before landOn()).");
+
+        }
+        Piece bumped = occupant;
+        occupant = piece;
+        return bumped;
 
     }
 }

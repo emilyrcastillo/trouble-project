@@ -1,5 +1,18 @@
 package Cell;
 
-public class StartCell extends Cell {
+import Piece.Piece;
 
+public class StartCell extends PlayTrackCell {
+    private String color;
+
+    // Getter method to get private color attribute
+    public String getColor(){
+        return color;
+    }
+
+    // Method that checks if a cell is the start cell for a piece
+    public boolean isStartFor(Piece piece){
+        return piece.getColor().equals(this.color);
+
+    }
 }
