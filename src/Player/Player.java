@@ -29,13 +29,16 @@ public class Player {
     }
 
     // Tells player what pieces are movable and asks which piece to move
-    public Piece choosePiece(ArrayList<Piece> movable, Scanner input){
-        for (Piece i: movable){
-            System.out.println(i + " is movable.");
+    public Piece choosePiece(ArrayList<Piece> movable, Scanner input) throws Exception {
+        for (int i = 0; i <= movable.size() - 1; i++) {
+            System.out.printf("%d) %s is movable.%n", i + 1, movable.get(i).toString());
         }
         System.out.println("Choose the number associated with the piece you want to move.");
         int choice = input.nextInt();
-        return movable.get(choice-1);
+        if (!(choice >= 1 && choice <= movable.size())) {
+            throw new Exception("Input not in valid range.");
+        }
+        return movable.get(choice - 1);
     }
 
     // Method that checks if all pieces are finished, if true the user has won

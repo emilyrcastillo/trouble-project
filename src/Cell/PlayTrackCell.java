@@ -8,6 +8,6 @@ public class PlayTrackCell extends Cell {
     //Checks if there is piece on cell, if yes, compares color
     @Override
     public boolean canLandHere(Piece piece){
-        return (!this.isEmpty() && piece.getColor().equals(this.getOccupant().getColor()));
+        return !(!this.isEmpty() && piece.getColor().equals(this.getOccupant().getColor()));
     }
 }
