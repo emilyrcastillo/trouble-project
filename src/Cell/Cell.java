@@ -18,10 +18,14 @@ public class Cell {
     }
 
     // Method that places onto a cell.
-    public void placePiece(Piece piece) {
+    public void placePiece(Piece piece) throws Exception {
         // check if piece can land on cell before placing it
         if (canLandHere(piece)){
             occupant = piece;
+        }
+        // Raise an exception if the piece can not land here
+        else{
+            throw new Exception("That piece can not land on this cell.");
         }
 
     }
@@ -41,10 +45,12 @@ public class Cell {
 
     // Method that returns bumped piece and updates piece on cell
     public Piece landOn(Piece piece) throws Exception{
+        // If piece can not land here, throw exception
         if (!canLandHere(piece)){
             throw new Exception("Must check that piece can land on square before landing (canLandHere() before landOn()).");
 
         }
+        // Occupant is getting bumped, incoming piece becomes new occupant
         Piece bumped = occupant;
         occupant = piece;
         return bumped;
