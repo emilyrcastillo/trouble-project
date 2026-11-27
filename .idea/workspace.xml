@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d409d90-0426-4ea9-9431-9166a2b33e5c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Piece/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Piece/Piece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,23 +25,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="4.447233270108521E-43" />
-      <entry key="MS500" value="3.3857710652199408E-9" />
-      <entry key="S2" value="0.008973131008495311" />
-      <entry key="S5" value="0.3122652126951646" />
-      <entry key="S10" value="1.2860610742411065" />
-      <entry key="S30" value="4.116290759209074" />
-      <entry key="S60" value="8.14397195955986" />
-      <entry key="M2" value="15.574794452822825" />
-      <entry key="M5" value="27.454322947554612" />
-      <entry key="M10" value="36.556373611758126" />
-      <entry key="M15" value="44.52570237998183" />
-      <entry key="M30" value="69.9099817338314" />
-      <entry key="H1" value="111.1957746172809" />
-      <entry key="H2" value="154.68611059222835" />
-      <entry key="H4" value="187.65948114511772" />
-      <entry key="D1" value="309.6138725933425" />
-      <entry key="W1" value="620.5283060249002" />
+      <entry key="MS100" value="1.4553506436058552E-52" />
+      <entry key="MS500" value="7.134150258103523E-11" />
+      <entry key="S2" value="0.00928676234845578" />
+      <entry key="S5" value="0.4679344153780302" />
+      <entry key="S10" value="2.117238082832767" />
+      <entry key="S30" value="10.84040549481452" />
+      <entry key="S60" value="25.297692910095908" />
+      <entry key="M2" value="44.10124943660686" />
+      <entry key="M5" value="69.7637941349787" />
+      <entry key="M10" value="95.051391099887" />
+      <entry key="M15" value="115.5016576011841" />
+      <entry key="M30" value="165.97755827331616" />
+      <entry key="H1" value="239.69059599374933" />
+      <entry key="H2" value="324.0495720127737" />
+      <entry key="H4" value="395.30728638970584" />
+      <entry key="D1" value="563.5963385835947" />
+      <entry key="W1" value="886.4637442257481" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
@@ -51,36 +50,36 @@
       <entry key="S5" value="1.0" />
       <entry key="S10" value="1.0" />
       <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0000000003043148" />
-      <entry key="M5" value="1.0001560735121766" />
-      <entry key="M10" value="1.0124929384924681" />
-      <entry key="M15" value="1.053840580598052" />
-      <entry key="M30" value="1.2320357312959629" />
-      <entry key="H1" value="1.481700873256384" />
-      <entry key="H2" value="1.6940467412905058" />
-      <entry key="H4" value="1.8331740815778539" />
-      <entry key="D1" value="2.563055721374629" />
-      <entry key="W1" value="5.034220276474006" />
+      <entry key="S60" value="1.000000000000001" />
+      <entry key="M2" value="1.000000034636573" />
+      <entry key="M5" value="1.0010492303781466" />
+      <entry key="M10" value="1.0357330081099838" />
+      <entry key="M15" value="1.1254483794078143" />
+      <entry key="M30" value="1.504957809723103" />
+      <entry key="H1" value="2.1410072009076027" />
+      <entry key="H2" value="2.8081346797434845" />
+      <entry key="H4" value="3.3147244477590183" />
+      <entry key="D1" value="4.440707057374619" />
+      <entry key="W1" value="7.002633971234481" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="7.428840950212846E-12" />
-      <entry key="MS500" value="0.005945444331474843" />
-      <entry key="S2" value="0.28506164971192105" />
-      <entry key="S5" value="0.8894160125787297" />
-      <entry key="S10" value="2.0123037094205283" />
-      <entry key="S30" value="4.9703710553079645" />
-      <entry key="S60" value="9.024863124138161" />
-      <entry key="M2" value="16.468508587502175" />
-      <entry key="M5" value="28.379365768353402" />
-      <entry key="M10" value="37.51882637758413" />
-      <entry key="M15" value="45.53940265050828" />
-      <entry key="M30" value="71.11214074469721" />
-      <entry key="H1" value="112.65550960849603" />
-      <entry key="H2" value="156.3658129816473" />
-      <entry key="H4" value="189.48427986723948" />
-      <entry key="D1" value="312.17501830392865" />
-      <entry key="W1" value="625.5620827330039" />
+      <entry key="MS100" value="6.359535624710396E-15" />
+      <entry key="MS500" value="0.001447721732003105" />
+      <entry key="S2" value="0.2035256544134467" />
+      <entry key="S5" value="0.9580795951812299" />
+      <entry key="S10" value="2.7556188263317476" />
+      <entry key="S30" value="11.644925573671621" />
+      <entry key="S60" value="26.18013376046259" />
+      <entry key="M2" value="45.03363244937854" />
+      <entry key="M5" value="70.71974321671644" />
+      <entry key="M10" value="96.03920887294402" />
+      <entry key="M15" value="116.57737669830748" />
+      <entry key="M30" value="167.4352744467692" />
+      <entry key="H1" value="241.7930727321492" />
+      <entry key="H2" value="326.8307053310033" />
+      <entry key="H4" value="398.6054487039824" />
+      <entry key="D1" value="568.0334078310458" />
+      <entry key="W1" value="893.4656760216137" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -100,7 +99,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "implementing-Piece-methods",
+    "git-widget-placeholder": "implementing-player-methods",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
