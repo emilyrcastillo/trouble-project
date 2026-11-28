@@ -8,6 +8,7 @@ public class Player {
     private String name; // Initializing name attribute for player
     private String color; // Initializing color attribute for player
     private Piece[] pieces = new Piece[4]; // Initializing players pieces(4)
+    private Piece[] homePieces = new Piece[4]; // Initializing home pieces
     private int startIndex;
 
     // Initializing constants
@@ -16,13 +17,17 @@ public class Player {
     private static final int LAST_START_CELL_INDEX = 21;
 
     // Defining constructor to create players from name, color, pieces, and start index
-    public Player(String name, String color, Piece[] pieces, int startIndex) throws Exception{
+    public Player(String name, String color, int startIndex) throws Exception{
         // Start index must be 0,7,14, or 21
         if (startIndex % START_CELL_INDEX_INCREMENT == FIRST_START_CELL_INDEX && startIndex <= LAST_START_CELL_INDEX) {
             this.name = name;
             this.color = color;
-            this.pieces = pieces;
             this.startIndex = startIndex;
+            // Makes four new pieces and put them in the players piece array
+            for (int i=0; i < 4; i++){
+                this.pieces[i] = new Piece(this.color, i+1);
+                this.homePieces[i] = this.pieces[i];
+            }
         }
         else{
             throw new Exception("Start index not on valid start cell (0,7,14,21).");

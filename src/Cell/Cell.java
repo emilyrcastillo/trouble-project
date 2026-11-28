@@ -3,9 +3,26 @@ package Cell;
 import Piece.Piece;
 
 public class Cell {
-    private int row; // Initializing row attribute, row of cell in grid.
-    private int column; // Initializing column attribute, column of cell in grid.
+    protected int row; // Initializing row attribute, row of cell in grid.
+    protected int column; // Initializing column attribute, column of cell in grid.
     private Piece occupant; // Initializing occupant attribute, piece occupying the cell.
+
+    public Cell(int row, int column){
+        this.row = row;
+        this.column = column;
+        this.occupant = null;
+
+    }
+
+    // Getter method for column
+    public int getColumn(){
+        return column;
+    }
+
+    // Getter method for row
+    public int getRow() {
+        return row;
+    }
 
     // Method that checks if cell is empty.
     public boolean isEmpty() {

@@ -11,6 +11,26 @@ public class Piece {
     private static final int LAST_CELL_INDEX = 31;
     private static final int MAX_SIZE_ROLL = 6;
 
+    public Piece(String color, int number) throws Exception{
+        if (number >= 1){
+            this.color = color;
+            this.number = number;
+            this.progress = -1;
+        }
+        else{
+            throw new Exception("Number not in valid range. Number must be greater than or equal to one.");
+        }
+    }
+
+    // Getter method for progress
+    public int getProgres(){
+        return progress;
+    }
+
+    // Getter method for number
+    public int getNumber(){
+        return number;
+    }
 
     // Getter method to get private color attribute
     public String getColor() {
