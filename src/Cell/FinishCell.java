@@ -5,6 +5,23 @@ public class FinishCell extends Cell {
     private String color;
     private int finishIndex;
 
+    //Constructor
+    public FinishCell(int row, int column, String color, int finishIndex){
+        super (row, column);
+        this.color = color;
+        this.finishIndex = finishIndex;
+    }
+
+    // Getter method for color
+    public String getColor(){
+        return color;
+    }
+
+    // Getter method for finish index
+    public int getFinishIndex(){
+        return finishIndex;
+    }
+
     // Method returns true only for its own color,& only if the space is empty.
     @Override
     public boolean canLandHere(Piece piece){
